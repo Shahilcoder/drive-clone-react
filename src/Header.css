@@ -1,0 +1,20 @@
+.header{
+    display:flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header__container{
+    display:flex;
+    align-items: center;
+}
+.header__container > img {
+    height:40px;
+    padding:0px 4px 0px 0px;
+    margin:5px 5px 4px;
+}
+.header__container > h2 {
+    font-size: 22px;
+    color:#5f6368;
+    padding:0px 0px 0px 4px;
+}

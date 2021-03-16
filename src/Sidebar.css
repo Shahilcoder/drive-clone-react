@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: brown;
+    width: 256px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__new {
+    padding: 10px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white !important;
+    border-radius: 50px !important;
+}
