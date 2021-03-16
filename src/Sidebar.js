@@ -8,7 +8,7 @@ function Sidebar() {
         <div className="sidebar">
             <div>
                 <Button className="sidebar__new">
-                   New
+                   + New
                 </Button>
             </div>
         </div>
