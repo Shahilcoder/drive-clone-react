@@ -1,5 +1,6 @@
 import React from "react";
-import './App.css';
+import "./App.css";
+import MyDrive from "./Content/MyDrive";
 
 import Header from "./Header";
 import Sidebar from "./Sidebar";
@@ -11,7 +12,7 @@ function App() {
       <div className="app__container">
         <Sidebar />
         <div className="content">
-          Test
+          <MyDrive />
         </div>
       </div>
     </div>

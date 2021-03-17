@@ -1,20 +1,55 @@
-.header{
-    display:flex;
-    background-color: red;
-    align-items: center;
-    justify-content: space-evenly;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  border-bottom: 1px solid rgb(219, 219, 219);
 }
-.header__container{
-    display:flex;
-    align-items: center;
+.header__container {
+  display: flex;
+  align-items: center;
 }
 .header__container > img {
-    height:40px;
-    padding:0px 4px 0px 0px;
-    margin:5px 5px 4px;
+  height: 40px;
+  padding: 0px 8px 0px 0px;
+  margin: 5px 5px 4px;
+  object-fit: contain;
 }
 .header__container > h2 {
-    font-size: 22px;
-    color:#5f6368;
-    padding:0px 0px 0px 4px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header__searchContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.header__searchBar {
+  width: 45%;
+  height: 120%;
+  border-radius: 6px;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  padding: 5px;
+}
+.MuiSvgIcon-root {
+  color: rgb(82, 82, 82);
+}
+.header__searchBar > input {
+  flex: 1;
+  height: 60%;
+  font-size: 16px;
+  color: gray;
+  background: none;
+  border: none;
+  margin-left: 12px;
+  padding: 5px;
+}
+.header__searchBar > input:focus {
+  outline-width: 0;
+  color: #000;
 }

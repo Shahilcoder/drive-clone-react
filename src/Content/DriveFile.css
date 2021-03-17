@@ -1,0 +1,12 @@
+.driveFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  /* padding: 2rem; */
+  width: 303px;
+  height: 303px;
+  border: 1px solid red;
+  background-color: aqua;
+}
