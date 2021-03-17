@@ -5,13 +5,14 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import SettingsIcon from "@material-ui/icons/Settings";
 import AppsIcon from "@material-ui/icons/Apps";
+import { Avatar } from "@material-ui/core";
 function Header() {
   return (
     <div className="header">
       <div className="header__container">
         <img
           src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png"
-          alt="deive"
+          alt="drive"
         />
         <h2>Drive</h2>
       </div>
@@ -26,8 +27,9 @@ function Header() {
         <span>
           <HelpOutlineIcon />
           <SettingsIcon />
-        </span>
         <AppsIcon />
+        </span>
+        <Avatar />
       </div>
     </div>
   );

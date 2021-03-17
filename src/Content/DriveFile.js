@@ -7,7 +7,7 @@ const DriveFile = () => {
       <div className="file__img">
         <img
           src="https://source.unsplash.com/WLUHO9A_xik/303x289"
-          alt="File Image"
+          alt="File"
         />
       </div>
       <div className="file__info">

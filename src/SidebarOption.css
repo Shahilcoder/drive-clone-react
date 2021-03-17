@@ -1,0 +1,36 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.sidebarOption > .sidebarOption__arrow {
+    width: 24px;
+    height: 38px;
+    /* display: flex; */
+    padding: 0px 4px 0px 6px;
+    /* align-items: center; */
+}
+
+.sidebarOption > .sidebarOption__arrow > svg {
+    fill: #5F6368;
+}
+
+.sidebarOption > .sidebarOption__holder {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarOption > .sidebarOption__holder > .sidebarOption__icon {
+    padding-right: 20px;
+}
+
+.sidebarOption > .sidebarOption__holder > .sidebarOption__icon > svg {
+    fill: #5F6368;
+}
+
+.sidebarOption > .sidebarOption__holder > .sidebarOption__name {
+    color: #5F6368;
+    font-size: 13px;
+    font-weight: 600;
+}
