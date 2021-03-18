@@ -7,6 +7,18 @@
     border-radius: 0 66px 66px 0;
 }
 
+.selected {
+    background-color: #e8f0fe !important;
+}
+
+.selected > .sidebarOption__holder > .sidebarOption__icon > svg {
+    fill: #1967D2 !important;
+}
+
+.selected > .sidebarOption__holder > .sidebarOption__name {
+    color: #1967D2 !important;
+}
+
 .sidebarOption:hover {
     background-color: rgba(0, 0, 0, .04);
     cursor: pointer;

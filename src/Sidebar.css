@@ -10,7 +10,6 @@
   margin-left: -5px;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   color: #202124;
-  font-size: 13px;
 }
 
 .sidebar__newButton {
@@ -27,3 +26,19 @@
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%) !important;
   text-transform: inherit !important;
 }
+
+.sidebar__text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.sidebar__list {
+  /* overflow-y: scroll; */
+  width: 240px;
+  /* height: 100px; */
+}
+
+/* .sidebar__list::-webkit-scrollbar {
+  color: blue;
+} */

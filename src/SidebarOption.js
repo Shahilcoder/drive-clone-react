@@ -1,9 +1,9 @@
 import React from 'react';
 import "./SidebarOption.css";
 
-function SidebarOption({ name, icon, hasArrow }) {
+function SidebarOption({ name, icon, hasArrow, selected }) {
     return (
-        <div className="sidebarOption">
+        <div className={`sidebarOption ${selected ? "selected" : ""}`}>
             <div className="sidebarOption__arrow">
                 {hasArrow ? (
                     <svg width="20px" height="20px" viewBox="0 0 20 20" focusable="false" fill="#000000">
