@@ -4,26 +4,33 @@
   height: 60px;
   border-bottom: 1px solid rgb(219, 219, 219);
 }
-.header>div {
-  padding: 12px;
-}
 
 .header__container {
   display: flex;
-    justify-content: flex-start;
-    align-items: center;   
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: center;   
 }
-.header__container > img {
+
+.header__container > div {
+  font-size: 22px;
+  color: #5F6368;
+  font-family: 'Product Sans',Arial,sans-serif;
+  padding-left: 4px;
+}
+
+.header__container > .header__logo {
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.header__container > .header__logo > img {
   height: 40px;
-  padding: 0px 8px 0px 0px;
-  margin: 5px 5px 4px;
+  margin-right: 4px;
   object-fit: contain;
 }
-.header__container > h2 {
-  color: gray;
-  font-size: 20px;
-  font-weight: 500;
-}
+
 .header__searchContainer {
   flex: 1;
   display: flex;

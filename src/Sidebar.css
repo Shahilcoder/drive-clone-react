@@ -7,6 +7,7 @@
 
 .sidebar__new {
   padding: 13px 16px 11px;
+  margin-left: -5px;
   font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
   color: #202124;
   font-size: 13px;
@@ -21,16 +22,8 @@
   border-radius: 50px !important;
   display: flex;
   justify-content: space-around !important;
-  justify-content: center !important;
+  /* justify-content: center !important; */
   align-items: center !important;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%) !important;
   text-transform: inherit !important;
-}
-
-.sidebar__newButton > img {
-  height: 36px;
-  margin-right: 1rem !important;
-}
-
-.sidebar__newButton > .sidebar__plus {
 }

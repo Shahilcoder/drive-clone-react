@@ -10,11 +10,13 @@ function Header() {
   return (
     <div className="header">
       <div className="header__container">
-        <img
-          src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png"
-          alt="drive"
-        />
-        <h2>Drive</h2>
+        <div className="header__logo">
+          <img
+            src="https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png"
+            alt="drive"
+          />
+        </div>
+        <div>Drive</div>
       </div>
       <div className="header__searchContainer">
         <div className="header__searchBar">
